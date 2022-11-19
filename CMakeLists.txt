@@ -8,4 +8,3 @@ add_library(arithmetic SHARED add.c sub.c mul.c dur.c)
 
 add_executable(prog cal_main.c)
 target_link_libraries(prog PUBLIC arithmetic)
-.
